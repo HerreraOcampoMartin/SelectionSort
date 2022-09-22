@@ -5,6 +5,7 @@ void selectionSort(int arreglo[], int tamano) {
     int valor_minimo;
 
     for (int i = 0; i < tamano - 1; i++) {
+        // Este bucle realizará tamano-1 iteraciones
         valor_minimo = i;
 
         for (int j = i + 1; j < tamano; j++) {
@@ -13,6 +14,9 @@ void selectionSort(int arreglo[], int tamano) {
             if (arreglo[j] < arreglo[valor_minimo]){
                 valor_minimo = j;
             }
+            // Primera iteración: tamano - 1
+            // Primera iteración: tamano - 2
+            // ........
         } // Fin del for
 
         if (valor_minimo != i){
