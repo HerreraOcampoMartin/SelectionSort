@@ -16,7 +16,8 @@ void selectionSort(int arreglo[], int tamano) {
             }
             // Primera iteración: tamano - 1
             // Primera iteración: tamano - 2
-            // ........
+            // y sigue...
+
         } // Fin del for
 
         if (valor_minimo != i){
